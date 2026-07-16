@@ -1,0 +1,18 @@
+## Celestial Bodies — OOP Project
+
+C++ project demonstrating object-oriented programming concepts.
+
+### Concepts used
+- Abstract classes and pure virtual functions
+- Multiple inheritance (CelestialBody + Planet + Explorer)
+- Polymorphism and method overriding
+- Dynamic memory allocation (new/delete)
+- Class hierarchies (GasGiant → GasRingPlanet)
+
+### Classes
+- CelestialBody — base class with name and equator
+- Planet — base class with distance, gravity, water
+- Explorer — abstract interface with pure virtual explore()
+- GasGiant — inherits all three
+- RockyPlanet — inherits all three
+- GasRingPlanet — extends GasGiant with ring data
